@@ -103,167 +103,167 @@ const defaultConfig = {
 			}
 		]
 	},
-	sections: {
-		list: [
+		"sections": {
+		"list": [
 			{
-				title: "Media",
-				color: "green",
-				align: "left",
-				links: [
+				"title": "Game Dev",
+				"color": "green",
+				"align": "left",
+				"links": [
 					{
-						name: "YouTube",
-						url: "https://youtube.com",
-						icon: "fa-brands:youtube"
+						"name": "Textures",
+						"url": "https://ambientcg.com/list",
+						"icon": "mdi:texture"
 					},
 					{
-						name: "Disney",
-						url: "https://hotstar.in/",
-						icon: "fa-solif:robot-astromech"
+						"name": "Asset Store",
+						"url": "https://gamedevmarket.net/",
+						"icon": "mdi:store"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
-						icon: "simple-icons:openai"
+						"name": "Mixamo",
+						"url": "https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack",
+						"icon": "mdi:animation"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						"name": "Poly Pizza",
+						"url": "https://poly.pizza",
+						"icon": "mdi:pizza"
 					}
 				]
 			},
 			{
-				title: "Dev",
-				color: "magenta",
-				align: "left",
-				links: [
+				"title": "Dev",
+				"color": "magenta",
+				"align": "left",
+				"links": [
 					{
-						name: "GitHub",
-						url: "https://github.com",
-						icon: "mdi:github"
+						"name": "GitHub",
+						"url": "https://github.com",
+						"icon": "mdi:github"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						"name": "Replit",
+						"url": "https://replit.com",
+						"icon": "mdi:code-braces"
 					},
 					{
-						name: "Dev.to",
-						url: "https://dev.to",
-						icon: "material-symbols:logo-dev"
+						"name": "Vercel",
+						"url": "https://vercel.com",
+						"icon": "mdi:triangle"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						"name": "Stack Overflow",
+						"url": "https://stackoverflow.com/",
+						"icon": "mdi:stack-overflow"
 					}
 				]
 			},
 			{
-				title: "Social",
-				color: "violet",
-				align: "left",
-				links: [
+				"title": "Productivity",
+				"color": "violet",
+				"align": "left",
+				"links": [
 					{
-						name: "Twitter",
-						url: "https://twitter.com",
-						icon: "mdi:twitter"
+						"name": "Trello",
+						"url": "https://trello.com",
+						"icon": "fa-brands:trello"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						"name": "Study Material",
+						"url": "https://drive.google.com/drive/folders/1d624w1PQiRkvQ2Tp16MCJtpilDBnSsii?usp=share_link",
+						"icon": "fa:book"
 					},
 					{
-						name: "Reddit",
-						url: "https://reddit.com",
-						icon: "mdi:reddit"
+						"name": "Monkey Type",
+						"url": "https://monkeytype.com",
+						"icon": "mdi:keyboard"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						"name": "GPT",
+						"url": "https://chat.openai.com/chat",
+						"icon": "simple-icons:openai"
 					}
 				]
 			},
 			{
-				title: "Gaming",
-				color: "cyan",
-				align: "left",
-				links: [
+				"title": "Media",
+				"color": "cyan",
+				"align": "left",
+				"links": [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						"name": "YouTube",
+						"url": "https://youtube.com",
+						"icon": "fa-brands:youtube"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						"name": "Netflix",
+						"url": "https://hotstar.com/in",
+						"icon": "mdi:netflix"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						"name": "Cartoon Way",
+						"url": "https://cartoonway.tk/",
+						"icon": "mdi:ghost"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						"name": "Disney",
+						"url": "https://hotstar.com/in",
+						"icon": "fa:star"
 					}
 				]
 			},
 			{
-				title: "Science",
-				color: "blue",
-				align: "left",
-				links: [
+				"title": "Social",
+				"color": "blue",
+				"align": "left",
+				"links": [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						"name": "Reddit",
+						"url": "https://reddit.com/",
+						"icon": "fa-brands:reddit"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						"name": "WhatsApp",
+						"url": "web.whatsapp.com",
+						"icon": "fa-brands:whatsapp"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						"name": "Quora",
+						"url": "https://quora.com/",
+						"icon": "fa-brands:quora"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						"name": "Instagram",
+						"url": "https://instagram.com/",
+						"icon": "fa-brands:instagram"
 					}
 				]
 			},
 			{
-				title: "Tech",
-				color: "yellow",
-				align: "left",
-				links: [
+				"title": "Linux",
+				"color": "yellow",
+				"align": "left",
+				"links": [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						"name": "Arch Wiki",
+						"url": "https://wiki.archlinux.org/",
+						"icon": "mdi:arch"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						"name": "AUR",
+						"url": "https://aur.archlinux.org/",
+						"icon": "mdi:apps"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
+						"name": "9To5 Linux",
+						"url": "https://9to5linux.com/",
+						"icon": "fa-brands:linux"
 					},
 					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						"name": "Kernel",
+						"url": "https://kernel.org/",
+						"icon": "fa:microchip"
 					}
 				]
 			}
