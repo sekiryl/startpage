@@ -97,9 +97,9 @@ const defaultConfig = {
 				url: "https://reddit.com/r/{}"
 			},
 			{
-				alias: "w",
-				name: "Wikipedia Search",
-				url: "https://en.wikipedia.org/wiki/{}"
+				alias: "y",
+				name: "YouTube Search",
+				url: "https://youtube.com/search?q={}"
 			}
 		]
 	},
