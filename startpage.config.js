@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "llawliet",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -24,7 +24,7 @@ const defaultConfig = {
 	},
 	terminal: {
 		fixedHeight: true,
-		windowGlow: true,
+		windowGlow: false,
 		textGlow: false
 	},
 	prompt: {
@@ -62,7 +62,7 @@ const defaultConfig = {
 		hoverColor: "violet"
 	},
 	search: {
-		default: "https://google.com/search?q=",
+		default: "https://search.l6174.is-a.dev/search?q=",
 		target: "_self",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
@@ -106,19 +106,19 @@ const defaultConfig = {
 	sections: {
 		list: [
 			{
-				title: "General",
+				title: "Media",
 				color: "green",
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						name: "YouTube",
+						url: "https://youtube.com",
+						icon: "fa-brands:youtube"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "Disney",
+						url: "https://hotstar.in/",
+						icon: "fa-solif:robot-astromech"
 					},
 					{
 						name: "GPT",
