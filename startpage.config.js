@@ -225,7 +225,7 @@ const defaultConfig = {
 					},
 					{
 						"name": "WhatsApp",
-						"url": "web.whatsapp.com",
+						"url": "https://web.whatsapp.com",
 						"icon": "fa-brands:whatsapp"
 					},
 					{
