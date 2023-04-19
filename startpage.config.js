@@ -138,9 +138,9 @@ const defaultConfig = {
 				"align": "left",
 				"links": [
 					{
-						"name": "GitHub",
-						"url": "https://github.com",
-						"icon": "mdi:github"
+						"name": "GitLab",
+						"url": "https://gitlab.com",
+						"icon": "mdi:gitlab"
 					},
 					{
 						"name": "Replit",
