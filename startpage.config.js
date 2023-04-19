@@ -140,7 +140,7 @@ const defaultConfig = {
 					{
 						"name": "GitLab",
 						"url": "https://gitlab.com",
-						"icon": "mdi:gitlab"
+						"icon": "fa-brands:gitlab"
 					},
 					{
 						"name": "Replit",
