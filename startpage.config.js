@@ -117,7 +117,7 @@ const defaultConfig = {
 					},
 					{
 						"name": "Asset Store",
-						"url": "https://gamedevmarket.net/",
+						"url": "https://unityassets4free.com/",
 						"icon": "mdi:store"
 					},
 					{
