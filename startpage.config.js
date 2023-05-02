@@ -62,7 +62,7 @@ const defaultConfig = {
 		hoverColor: "violet"
 	},
 	search: {
-		default: "https://search.l6174.is-a.dev/search?q=",
+		default: "https://searx.be/search?q=",
 		target: "_self",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
