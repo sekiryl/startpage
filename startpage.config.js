@@ -165,9 +165,9 @@ const defaultConfig = {
 				"align": "left",
 				"links": [
 					{
-						"name": "Trello",
-						"url": "https://trello.com",
-						"icon": "fa-brands:trello"
+						"name": "Milanote",
+						"url": "https://app.milanote.com",
+						"icon": "fa:align-center"
 					},
 					{
 						"name": "Study Material",
