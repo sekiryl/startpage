@@ -153,7 +153,7 @@ const defaultConfig = {
 						"icon": "mdi:triangle"
 					},
 					{
-						"name": "Chat GPT",
+						"name": "GPT",
 						"url": "https://chat.openai.com/chat",
 						"icon": "simpleicons:openai"
 					}
