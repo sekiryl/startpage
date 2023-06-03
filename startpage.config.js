@@ -153,9 +153,9 @@ const defaultConfig = {
 						"icon": "mdi:triangle"
 					},
 					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com/",
-						"icon": "mdi:stack-overflow"
+						"name": "Chat GPT",
+						"url": "https://chat.openai.com/chat",
+						"icon": "simpleicons:openai"
 					}
 				]
 			},
@@ -180,9 +180,9 @@ const defaultConfig = {
 						"icon": "mdi:keyboard"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/chat",
-						"icon": "simple-icons:openai"
+						"name": "Classes",
+						"url": "https://www.pw.live/study/batches/study",
+						"icon": "fa:school"
 					}
 				]
 			},
