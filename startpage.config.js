@@ -153,9 +153,9 @@ const defaultConfig = {
 						"icon": "mdi:triangle"
 					},
 					{
-						"name": "GPT",
+						"name": "BARD",
 						"url": "https://chat.openai.com/chat",
-						"icon": "simpleicons:openai"
+						"icon": "mdi:robot"
 					}
 				]
 			},
@@ -182,7 +182,7 @@ const defaultConfig = {
 					{
 						"name": "Classes",
 						"url": "https://www.pw.live/study/batches/study",
-						"icon": "fa:school"
+						"icon": "mdi:school"
 					}
 				]
 			},
