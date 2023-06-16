@@ -154,7 +154,7 @@ const defaultConfig = {
 					},
 					{
 						"name": "BARD",
-						"url": "https://chat.openai.com/chat",
+						"url": "https://bard.google.com",
 						"icon": "mdi:robot"
 					}
 				]
