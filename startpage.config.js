@@ -62,7 +62,7 @@ const defaultConfig = {
 		hoverColor: "violet"
 	},
 	search: {
-		default: "localhost:5000/search?q=",
+		default: "http://localhost:5000/search?q=",
 		target: "_self",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
