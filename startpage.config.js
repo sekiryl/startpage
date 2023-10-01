@@ -154,7 +154,7 @@ const defaultConfig = {
 					},
 					{
 						"name": "GPT",
-						"url": "https://chat.open.com/chat",
+						"url": "https://chat.openai.com/chat",
 						"icon": "mdi:robot-angry"
 					}
 				]
