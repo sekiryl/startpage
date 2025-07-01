@@ -5,7 +5,7 @@ module.exports = {
 	// important: true,
 	theme: {
 		fontFamily: {
-			mono: ["CascadiaCode", "ui-monospace", "SFMono-Regular"]
+			mono: ["0xProto Nerd Font", "ui-monospace", "SFMono-Regular"]
 		},
 		fontSize: {
 			DEFAULT: ["1rem", "2em"],

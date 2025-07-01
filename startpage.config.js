@@ -1,21 +1,22 @@
 const defaultConfig = {
-	username: "llawliet",
-	theme: {
-		backgroundColor: "#121317",
-		windowColor: "#1e212b",
-		glowColor: "#6b5cb157",
-		white: "#e2e2e2",
-		gray: "#97989d",
-		black: "#16161e",
-		red: "#ec6183",
-		green: "#2ed8a2",
-		yellow: "#e8b195",
-		blue: "#2bc3de",
-		cyan: "#62e0e2",
-		magenta: "#e069aa",
-		violet: "#d1aff8",
-		orange: "#ff8800"
-	},
+	username: "l6174",
+
+theme: {
+        "backgroundColor": "#191724",
+        "windowColor": "#1f1d2e",
+        "glowColor": "#464c79",
+        "white": "#e0def4",
+        "gray": "#908caa",
+        "black": "#191724",
+        "red": "#eb6f92",
+        "green": "#31748f",
+        "blue": "#9ccfd8",
+        "yellow": "#f6c177",
+        "cyan": "#ebbcba",
+        "magenta": "#c4a7e7",
+        "violet": "#ffffff",
+        "orange": "#ea9a97"
+},
 	wallpaper: {
 		url: "",
 		easing: "ease-in-out",
@@ -37,7 +38,7 @@ const defaultConfig = {
 		promptColor: "magenta",
 		promptSymbol: "❯",
 		caretColor: "green",
-		selectionBg: "yellow",
+		selectionBg: "magenta",
 		selectionFg: "black"
 	},
 	fetch: {
@@ -62,7 +63,7 @@ const defaultConfig = {
 		hoverColor: "violet"
 	},
 	search: {
-		default: "http://localhost:5000/search?q=",
+    default: "https://duckduckgo.com/?q=",
 		target: "_self",
 		shortcutRegex: "([A-Za-z0-9]+) (.*)",
 		shortcuts: [
@@ -96,6 +97,11 @@ const defaultConfig = {
 				name: "Subreddit Search",
 				url: "https://reddit.com/r/{}"
 			},
+      {
+              alias: "gpt",
+              name: "Chat GPT Query",
+              url: "https://chatgpt.com/?q={}"
+      },
 			{
 				alias: "y",
 				name: "YouTube Search",
@@ -138,24 +144,24 @@ const defaultConfig = {
 				"align": "left",
 				"links": [
 					{
+						"name": "GitHub",
+						"url": "https://sekiryl.is-a.dev/github",
+						"icon": "fa-brands:github"
+					},
+					{
 						"name": "GitLab",
 						"url": "https://gitlab.com",
 						"icon": "fa-brands:gitlab"
 					},
 					{
-						"name": "Replit",
-						"url": "https://replit.com",
-						"icon": "mdi:code-braces"
-					},
-					{
 						"name": "Vercel",
 						"url": "https://vercel.com",
-						"icon": "mdi:triangle"
+						"icon": "simple-icons:vercel"
 					},
 					{
-						"name": "GPT",
-						"url": "https://chat.openai.com/chat",
-						"icon": "mdi:robot-angry"
+						"name": "Cloudflare",
+						"url": "https://dash.cloudflare.com",
+						"icon": "fa-brands:cloudflare"
 					}
 				]
 			},
@@ -164,30 +170,30 @@ const defaultConfig = {
 				"color": "violet",
 				"align": "left",
 				"links": [
+          {
+                  "name": "Deep Seek",
+                  "url": "https://chat.deepseek.com/",
+                  "icon": "icon-park-solid:whale"
+          },
 					{
-						"name": "Milanote",
-						"url": "https://app.milanote.com",
-						"icon": "fa:align-center"
-					},
-					{
-						"name": "Study Material",
-						"url": "https://drive.google.com/drive/folders/1d624w1PQiRkvQ2Tp16MCJtpilDBnSsii?usp=share_link",
-						"icon": "fa:book"
+						"name": "Chat GPT",
+						"url": "https://chatgpt.com/",
+						"icon": "simple-icons:openai"
 					},
 					{
 						"name": "Monkey Type",
 						"url": "https://monkeytype.com",
-						"icon": "mdi:keyboard"
+						"icon": "simple-icons:monkeytype"
 					},
 					{
-						"name": "Stack Overflow",
-						"url": "https://stackoverflow.com",
-						"icon": "mdi:stack-overflow"
+						"name": "Mail",
+						"url": "https://mail.proton.me",
+						"icon": "simple-icons:protonmail"
 					}
 				]
 			},
 			{
-				"title": "Media",
+				"title": "Leisure",
 				"color": "cyan",
 				"align": "left",
 				"links": [
@@ -198,18 +204,18 @@ const defaultConfig = {
 					},
 					{
 						"name": "Netflix",
-						"url": "https://hotstar.com/in",
+						"url": "https://netflix.com",
 						"icon": "mdi:netflix"
-					},
-					{
-						"name": "Cartoon Way",
-						"url": "https://cartoonway.tk/",
-						"icon": "mdi:ghost"
 					},
 					{
 						"name": "Disney",
 						"url": "https://hotstar.com/in",
-						"icon": "fa:star"
+						"icon": "cbi:disney-plus"
+					},
+					{
+						"name": "Chess",
+						"url": "https://chess.com/",
+						"icon": "mdi:chess-pawn"
 					}
 				]
 			},
@@ -253,17 +259,17 @@ const defaultConfig = {
 					{
 						"name": "AUR",
 						"url": "https://aur.archlinux.org/",
-						"icon": "mdi:apps"
+						"icon": "mdi:package-variant"
 					},
 					{
-						"name": "9To5 Linux",
-						"url": "https://9to5linux.com/",
-						"icon": "fa-brands:linux"
+						"name": "Rose Pine",
+						"url": "https://rosepinetheme.com/palette/ingredients/",
+						"icon": "mdi:palette"
 					},
 					{
-						"name": "Kernel",
-						"url": "https://kernel.org/",
-						"icon": "fa:microchip"
+						"name": "Hyprland Wiki",
+						"url": "https://wiki.hyprland.org/",
+						"icon": "simple-icons:hyprland"
 					}
 				]
 			}

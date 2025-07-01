@@ -126,7 +126,7 @@ const Search = ({ commandChange, selectionChange }) => {
 					ref={inputRef}
 					autoFocus
 					onChange={(e) => {
-						setCommand(e.target.value)
+						setCommand(e.target.value.toLowerCase())
 					}}
 					onFocus={() => {
 						setInputFocus(true)
