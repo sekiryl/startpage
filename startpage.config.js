@@ -1,21 +1,20 @@
 const defaultConfig = {
-	username: "l6174",
-
+	username: "sekiratte",
 theme: {
-        "backgroundColor": "#191724",
-        "windowColor": "#1f1d2e",
-        "glowColor": "#464c79",
-        "white": "#e0def4",
-        "gray": "#908caa",
-        "black": "#191724",
-        "red": "#eb6f92",
-        "green": "#31748f",
-        "blue": "#9ccfd8",
-        "yellow": "#f6c177",
-        "cyan": "#ebbcba",
-        "magenta": "#c4a7e7",
-        "violet": "#ffffff",
-        "orange": "#ea9a97"
+    "backgroundColor": "#231e1c",   // base
+    "windowColor": "#1a1614",       // mantle
+    "glowColor": "#5a5149",         // overlay1
+    "white": "#e3d8c9",             // text
+    "gray": "#a09585",              // subtext0
+    "black": "#0f0d0c",             // crust
+    "red": "#9a2a2a",               // red
+    "green": "#5c7c46",             // green
+    "blue": "#3a5a7a",              // blue
+    "yellow": "#d4af37",            // yellow
+    "cyan": "#4a8a8a",              // teal
+    "magenta": "#8a6a9a",           // mauve
+    "violet": "#e7c8a9",            // rosewater (soft highlight)
+    "orange": "#d4875d"             // peach
 },
 	wallpaper: {
 		url: "",
