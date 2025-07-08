@@ -12,7 +12,7 @@ theme: {
     "blue": "#3a5a7a",              // blue
     "yellow": "#d4af37",            // yellow
     "cyan": "#4a8a8a",              // teal
-    "magenta": "#8a6a9a",           // mauve
+    "magenta": "#d4875d",           // mauve
     "violet": "#e7c8a9",            // rosewater (soft highlight)
     "orange": "#d4875d"             // peach
 },
