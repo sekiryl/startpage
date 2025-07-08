@@ -59,7 +59,7 @@ theme: {
 	urlLaunch: {
 		target: "_self",
 		defaultColor: "white",
-		hoverColor: "violet"
+		hoverColor: "orange"
 	},
 	search: {
     default: "https://duckduckgo.com/?q=",
