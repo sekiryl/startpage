@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "sekiratte",
+	username: "sekiryl",
 theme: {
     "backgroundColor": "#231e1c",   // base
     "windowColor": "#1a1614",       // mantle
@@ -19,8 +19,8 @@ theme: {
 	wallpaper: {
 		url: "",
 		easing: "ease-in-out",
-		fadeIn: true,
-		blur: true
+		fadeIn: false,
+		blur: false
 	},
 	terminal: {
 		fixedHeight: true,
@@ -82,9 +82,19 @@ theme: {
 				url: "https://search.brave.com/search?q={}"
 			},
 			{
-				alias: "gh",
+				alias: "github",
 				name: "Github Search",
 				url: "https://github.com/search?q={}"
+			},
+			{
+				alias: "gh",
+				name: "Github Repository",
+				url: "https://github.com/{}"
+			},
+			{
+				alias: "aur",
+				name: "Arch User Repo",
+				url: "https://aur.archlinux.org/packages?K={}"
 			},
 			{
 				alias: "s",
@@ -96,11 +106,11 @@ theme: {
 				name: "Subreddit Search",
 				url: "https://reddit.com/r/{}"
 			},
-      {
-              alias: "gpt",
-              name: "Chat GPT Query",
-              url: "https://chatgpt.com/?q={}"
-      },
+			{
+				alias: "gpt",
+				name: "Chat GPT Query",
+				url: "https://chatgpt.com/?q={}"
+			},
 			{
 				alias: "y",
 				name: "YouTube Search",
@@ -148,9 +158,9 @@ theme: {
 						"icon": "fa-brands:github"
 					},
 					{
-						"name": "GitLab",
-						"url": "https://gitlab.com",
-						"icon": "fa-brands:gitlab"
+						"name": "Portfolio",
+						"url": "https://sekiryl.is-a.dev",
+						"icon": "mdi:web"
 					},
 					{
 						"name": "Vercel",
@@ -169,11 +179,11 @@ theme: {
 				"color": "violet",
 				"align": "left",
 				"links": [
-          {
-                  "name": "Deep Seek",
-                  "url": "https://chat.deepseek.com/",
-                  "icon": "icon-park-solid:whale"
-          },
+					{
+						"name": "Classes",
+						"url": "https://pw.live",
+						"icon": "fluent:class-24-filled"
+					},
 					{
 						"name": "Chat GPT",
 						"url": "https://chatgpt.com/",
@@ -185,9 +195,9 @@ theme: {
 						"icon": "simple-icons:monkeytype"
 					},
 					{
-						"name": "Mail",
-						"url": "https://mail.proton.me",
-						"icon": "simple-icons:protonmail"
+						"name": "Disroot",
+						"url": "https://disroot.org/#services",
+						"icon": "simple-icons:disroot"
 					}
 				]
 			},
@@ -256,13 +266,13 @@ theme: {
 						"icon": "mdi:arch"
 					},
 					{
-						"name": "AUR",
-						"url": "https://aur.archlinux.org/",
+						"name": "Arch User Repo",
+						"url": "https://aur.archlinux.org",
 						"icon": "mdi:package-variant"
 					},
 					{
-						"name": "Rose Pine",
-						"url": "https://rosepinetheme.com/palette/ingredients/",
+						"name": "Sekiratte",
+						"url": "https://sekiratte.sekiryl.is-a.dev",
 						"icon": "mdi:palette"
 					},
 					{
