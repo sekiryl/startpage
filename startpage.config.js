@@ -212,19 +212,19 @@ theme: {
 						"icon": "fa-brands:youtube"
 					},
 					{
-						"name": "Netflix",
-						"url": "https://netflix.com",
-						"icon": "mdi:netflix"
-					},
-					{
 						"name": "Disney",
 						"url": "https://hotstar.com/in",
 						"icon": "cbi:disney-plus"
 					},
 					{
-						"name": "Chess",
-						"url": "https://chess.com/",
-						"icon": "mdi:chess-pawn"
+						"name": "Anime",
+						"url": "https://anikai.to/",
+						"icon": "roentgen:japan-shinto-shrine"
+					},
+					{
+						"name": "Anilist",
+						"url": "https://anilist.co/",
+						"icon": "simple-icons:anilist"
 					}
 				]
 			},
