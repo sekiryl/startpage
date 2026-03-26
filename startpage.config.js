@@ -218,7 +218,7 @@ theme: {
 					},
 					{
 						"name": "Anime",
-						"url": "https://anikai.to/",
+						"url": "https://anikai.to/home",
 						"icon": "roentgen:japan-shinto-shrine"
 					},
 					{
