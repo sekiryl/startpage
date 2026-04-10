@@ -158,9 +158,9 @@ theme: {
 						"icon": "fa-brands:github"
 					},
 					{
-						"name": "Portfolio",
-						"url": "https://sekiryl.is-a.dev",
-						"icon": "mdi:web"
+						"name": "LeetCode",
+						"url": "https://leetcode.com/problemset/",
+						"icon": "simple-icons:leetcode"
 					},
 					{
 						"name": "Vercel",
