@@ -180,9 +180,9 @@ theme: {
 				"align": "left",
 				"links": [
 					{
-						"name": "Classes",
-						"url": "https://pw.live",
-						"icon": "fluent:class-24-filled"
+						"name": "Academics",
+						"url": "https://www.khanacademy.org/profile/me/courses",
+						"icon": "simple-icons:khanacademy"
 					},
 					{
 						"name": "Chat GPT",
@@ -195,9 +195,9 @@ theme: {
 						"icon": "simple-icons:monkeytype"
 					},
 					{
-						"name": "Disroot",
-						"url": "https://disroot.org/#services",
-						"icon": "simple-icons:disroot"
+						"name": "Roadmaps",
+						"url": "https://roadmap.sh/r/sekiryl",
+						"icon": "simple-icons:roadmapdotsh"
 					}
 				]
 			},
@@ -244,9 +244,9 @@ theme: {
 						"icon": "fa-brands:whatsapp"
 					},
 					{
-						"name": "Quora",
-						"url": "https://quora.com/",
-						"icon": "fa-brands:quora"
+						"name": "Discord",
+						"url": "https://discord.com/app",
+						"icon": "fa-brands:discord"
 					},
 					{
 						"name": "Instagram",
